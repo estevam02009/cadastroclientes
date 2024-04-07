@@ -4,4 +4,4 @@ from api.models import CadastroCliente
 class CadastroClienteSerializer(serializers.ModelSerializer):
     class Meta:
         model = CadastroCliente
-        fields = ['__all__']
+        fields = '__all__'
